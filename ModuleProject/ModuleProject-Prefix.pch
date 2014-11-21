@@ -1,0 +1,27 @@
+//
+//  ModuleProject-Prefix.pch
+//  ModuleProject
+//
+//  Created by Zlm on 14-11-18.
+//  Copyright (c) 2014年 xmjw. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "AdaptiveDeviceManage.h"
+
+
+#define TITLEFONT  @"Helvetica"
+#define TITLEFONT_BOLD  @"Helvetica-Bold"
+#define TITLE_COLOR_GREEN [UIColor colorWithRed:0 green:0.7 blue:0.7 alpha:1]
+#define BACKGROUND_COLOR [UIColor colorWithRed:239/255.0 green:239/255.0 blue:239/255.0 alpha:1]
+#define IP_Message @"192.168.1.1"
+
+#endif
